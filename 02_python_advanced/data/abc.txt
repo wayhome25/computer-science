@@ -1,0 +1,10 @@
+{'greg': 95},
+{'john': 25},
+{'yang': 50},
+{'timothy': 15},
+{'melisa': 100},
+{'thor': 10},
+{'elen': 25},
+{'mark': 80},
+{'steve': 95},
+{'anna': 20}
