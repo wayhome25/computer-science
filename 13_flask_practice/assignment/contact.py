@@ -11,7 +11,9 @@ def index():
     cur.execute("SELECT * FROM members")
 
     rows = cur.fetchall();
+    conn.close()
     return render_template('index.html', rows = rows)
+
 
 
 @app.route('/new_member')
