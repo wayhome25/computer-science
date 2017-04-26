@@ -1,0 +1,17 @@
+body{
+    padding: 50px;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+}
+
+#add-member{
+  margin-bottom : 20px;
+}
+
+.add-member-form{
+  width: 400px;
+}

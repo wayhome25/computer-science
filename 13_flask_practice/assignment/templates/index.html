@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<h1>회원 연락처 리스트</h1>
+<a id="add-member" class="ui basic button" href="{{ url_for('new_member')}}">
+  <i class="icon user"></i> 회원추가
+</a>
+
+
+<table class="ui unstackable table">
+  <thead>
+    <tr>
+      <th>이름</th>
+      <th>나이</th>
+      <th>이메일</th>
+      <th>핸드폰</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in rows%}
+    <tr>
+      <td>{{ row.name }}</td>
+      <td>{{ row.age }}</td>
+      <td>{{ row.email }}</td>
+      <td>{{ row.phone }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
